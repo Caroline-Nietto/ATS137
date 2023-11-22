@@ -1,0 +1,34 @@
+Piramide de Teste Classica ---> se refere a uma visão do Back End, que é a camada de processamento. Ex: O código
+que desenvolvemos em Calculadora, é o back end. Fizemos o teste de unidade em cima dele, por que é mais rápido e mais
+barato do que fazer na camada UI.
+
+Teste de Unidade, faço internamente, olhando o código do mesmo projeto.
+Teste de Componente quando faço importação de algo que está em outro projeto.
+
+
+Teste de Serviço: um software ou parte do software conversar com outro programa. Testar se essa comunicação está sendo
+feita de forma correta.
+
+
+UI: é testar, criar a tela, a interface do usuario. O que nós pessoas enxergamos no programa. O front-end trabalha aqui.
+Ele faz (testes de componentes visuais, teste de integração em tela sistema e teste da tela). Garantir que o funcionamento
+da tela está ok.
+
+Usar uma massa de teste --> DDT = Data Driver Test = Teste Direcionado por Dados (é classificado como um tipo de teste)
+
+
+TDD é uma estratégia, uma abordagem = Test Driven Development = Desenvolvimento Direcionado por Testes
+
+Daria para criar os testes sem que houvesse as funções prontas
+
+Você teria:
+- nome da função que vai testar. Exemplo: somarDoisNumeros
+- os parametros da função. Exemplo: num1 e num2, que são do tipo double
+- retorna um double
+- a informação sobre o funcionamento Ex. Seria uma soma de dois numeros
+
+Faria um esqueleto de código e testaria em cima daquilo.
+Qual o benefício?
+- Funciona como exemplos
+
+---> Medir o progresso do projeto (Software funcionando é uma medida de progresso)

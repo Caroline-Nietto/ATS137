@@ -1,0 +1,11 @@
+id,username,firstName,lastName,email,password,phone,userStatus
+26102015,casnoop,snoop,pedreira,snoop29@teste.com,123,11444444444,0
+26102016,jsmith,john,smith,john.smith@test.com,456,11555555555,1
+26102017,bdoe,bob,doe,bob.doe@test.com,789,11666666666,1
+26102018,emiller,emma,miller,emma.miller@test.com,321,11777777777,1
+26102019,ajones,alex,jones,alex.jones@test.com,654,11888888888,1
+26102020,lwhite,lisa,white,lisa.white@test.com,987,11999999999,1
+26102021,rwilson,ryan,wilson,ryan.wilson@test.com,135,11000000000,1
+26102022,mjohnson,mary,johnson,mary.johnson@test.com,246,11111111111,1
+26102023,tbrown,tom,brown,tom.brown@test.com,789,11222222222,1
+26102024,jharris,jane,harris,jane.harris@test.com,987,11333333333,1
