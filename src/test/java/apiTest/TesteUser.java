@@ -28,6 +28,7 @@ public class TesteUser {    // inicio da classe
     static String uriUser = "https://petstore.swagger.io/v2/user/";
 
     // Funções e Métodos
+
     // Funções de Apoio
     public static String lerArquivoJson(String arquivoJson) throws IOException {
         return new String(Files.readAllBytes(Paths.get(arquivoJson)));
@@ -132,6 +133,7 @@ public class TesteUser {    // inicio da classe
     }   // fim Delete User
 
     @Test
+    @Order(5)
     public void testarLogin(){  // Inicio Get gerando Token
 
         String username = "casnoop";
@@ -162,6 +164,7 @@ public class TesteUser {    // inicio da classe
 
     // Utilizando MASSA DE TESTE
     @ParameterizedTest
+    @Order(6)
     @CsvFileSource(resources = "csv/massaUser.csv", numLinesToSkip = 1, delimiter = ',')
     public void testarIncluirUserCSV(
             String id,
